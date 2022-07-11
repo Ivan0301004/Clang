@@ -28,7 +28,6 @@ int main() {
   ? 7. %lld is used to print "Long Long Integer"
   ? 8. %llu is used ti print "Unsigned Long Long Integer"
   */
-  
   int pak = INT_MAX;
   int pak2 = INT_MIN;
   printf("Range of  integer %d to %d\n", pak2, pak);
