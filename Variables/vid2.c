@@ -19,15 +19,16 @@ int main() {
 
   /*
 
-  ?1. sizeof (short) <= sizeof (int) <= sizeof (long).
-  ?2. Writing signed int some_variable_name; is equivalent to writing int
-  some_variable_name; ?3. %d is used to print "Signed Integer" ?4. %u is used to
-  print "Unsigned integer" ?5. %ld is used to print "Long Integer" equivalent to
-  "Signed Long Integer" ?6. %lu is used to print "Unsigned Long Integer" ?7.
-  %lld is used to print "Long Long Integer" ?8. %llu is used ti print "Unsigned
-  Long Long Integer"
+  ? 1. sizeof (short) <= sizeof (int) <= sizeof (long).
+  ? 2. Writing signed int some_variable_name; is equivalent to writing int some_variable_name;
+  ? 3. %d is used to print "Signed Integer"
+  ? 4. %u is used to print "Unsigned integer"
+  ? 5. %ld is used to print "Long Integer" equivalent to "Signed Long Integer"
+  ? 6. %lu is used to print "Unsigned Long Integer"
+  ? 7. %lld is used to print "Long Long Integer"
+  ? 8. %llu is used ti print "Unsigned Long Long Integer"
   */
-
+  
   int pak = INT_MAX;
   int pak2 = INT_MIN;
   printf("Range of  integer %d to %d\n", pak2, pak);
