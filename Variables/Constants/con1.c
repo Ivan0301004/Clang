@@ -21,6 +21,9 @@ FUNCTION(double, 2)
 FUNCTION(quintuple, 5)
 
 int main() {
+  const int a = 10;
+
+  printf("Constant : %d\n", a);
   printf("quadruple(13): %d\n", fun_quadruple(13));
   printf("double(21): %d\n", fun_double(21));
   printf("quintuple(32): %d\n", fun_quintuple(32));
