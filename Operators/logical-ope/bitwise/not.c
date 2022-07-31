@@ -8,6 +8,5 @@
 int main(void) {
   int y = ~8;
   printf("NOT : %d\n", y);
-
   return 0;
 }
